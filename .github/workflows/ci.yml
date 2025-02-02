@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]  # Adjust if your default branch is different
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 23f2002121@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
